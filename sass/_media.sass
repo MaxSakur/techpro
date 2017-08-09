@@ -1,0 +1,210 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1760px)
+	.guy
+	 bottom: -115px
+	 width: 550px
+	 left: 18%
+	/**/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1550px)
+	.first__screen .h1
+	 margin-left: -100px
+	.guy
+	 width: 500px
+	 left: 16%
+	.nav-tabs>li.active, .nav-tabs>li.active:focus, .nav-tabs>li.active:hover
+	 border-left: 0
+	 border-bottom: 5px solid $active
+	.li.active
+	 border-left: 0 !important 
+	/**/
+
+@media only screen and (max-width : 1350px)
+	.first__screen .h1
+	 margin-left: -150px
+	// 2nd PAGE
+	// 2nd PAGE
+	// 2nd PAGE
+	.info-wrapper ul
+	 flex-direction: row
+	 width: 666px
+	 li
+	  width: 30%
+	.info-wrapper .tab-content
+	 clear: both
+	 width: 63vw
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.guy
+	 width: 400px
+	 left: 4%
+	 bottom: -136px
+	.first__screen .h1
+	 margin-left: -220px
+	 +fontmaster-z-w-h(30,300)
+	.first__screen-textbox figure p
+	 +fontmaster-z-w-h(16,300)
+	 /**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.my__wrapper
+	 padding: 0 5%
+	.littlediv
+	 margin-left: 50%
+	 right: 0
+	.info-wrapper .tab-content
+	 width: 90vw
+	/**/
+@media only screen and (max-width : 850px)
+	.bigdiv
+	 width: 380px
+	.littlediv
+	 width: 330px
+	.first__screen .h1
+	 margin-left: 0
+	.window p
+	 padding: 5px
+	 font-size: 23px
+	.h3
+	 +fontmaster-z-w-h(23,100)
+	.form-control, .info-wrapper .tab-content .buttondiv button, .input, .input-button
+	 +fontmaster-z-w-h(13,300)
+	.doubleinput, .form-control
+	 width: 59%
+	.info-wrapper .tab-content .buttondiv button, .input-button
+	 width: 200px
+	 padding: 5px
+	.span-wrapper
+	 padding: 0 50px 0 0
+	 line-height: 20px
+	.checkbox-label 
+	 margin-top: 0px
+	 & .input-checkbox
+	  top: -40px
+	.images img
+	 width: 80%
+	 float: right
+/* Small Devices, Tablets */
+@media only screen and (max-width : 750px)
+	.first__screen
+	 height: 120%
+	.bigdiv
+	 width: 100%
+	 position: inherit
+	 display: block
+	.first__screen-textbox
+	 width: 100%
+	.littlediv
+	 clear: both
+	 width: 100%
+	 position: inherit
+	 display: block
+	 margin-left: 0
+	.guy
+	 display: none
+	 width: 250px
+	 top: 35%
+	 float: right
+	 bottom: 0
+	 left: 50%
+	.window
+	 &:before
+	  content: ""
+	  background-image: url(../img/guy.png)
+	  display: block
+	  position: absolute
+	  background-size: 250px 190px
+	  background-repeat: no-repeat
+	  height: 200px
+	  width: 250px
+	  right: 0
+	  margin-top: -182px
+	.form-control, .info-wrapper .tab-content .buttondiv button, .input, .input-button
+	 +fontmaster-z-w-h(20,300)
+	.doubleinput, .form-control
+	 width: 320px
+	.info-wrapper .tab-content .buttondiv button, .input-button
+	 width: 320px
+	 padding: 5px
+	.input-button
+	 margin-top: 120px
+	.images
+	 margin-right: 63%
+	 margin-top: 20px
+	.checkbox-label
+	 padding-left: 0
+	 margin-left: -250px
+	.btn
+	 margin-top: 100px !important
+	// 2nd PAGE
+	.info-wrapper .tab-content .buttondiv button, .input-button
+	 margin-top: 15px
+	/**/
+@media only screen and (max-width : 650px)
+	.info-wrapper ul li
+	 width: 25%
+	 height: 100px
+	.nav-tabs>li>a
+	 font-size: 12px
+	.fullwidth, .halfwidth
+	 font-size: 14px
+	 line-height: 18px
+@media only screen and (max-width : 540px)
+	.info-wrapper ul li
+	 height: 80px
+	.info-wrapper ul li
+	 width: 22%
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.first__screen
+	 height: 130%
+	.window
+	 &:before
+	  background-size: 200px 140px
+	  background-repeat: no-repeat	  
+	  margin-top: -135px
+	.doubleinput, .form-control
+	 width: 278px
+	.input-button
+	 width: 270px
+	.images
+	 margin-top: 0
+	// 2nd PAGE
+	.nav>li>a
+	 padding: 0 30px 0 5px
+	.info-wrapper ul li
+	 width: 18%
+	/**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 360px)
+	.first__screen
+	 height: 130%
+	.window p
+	 font-size: 20px
+	.form-control, .info-wrapper .tab-content .buttondiv button, .input, .input-button
+	 +fontmaster-z-w-h(14,300)
+	.doubleinput, .form-control
+	 width: 200px
+	.input-button
+	 width: 200px
+	.checkbox-label
+	 margin-left: -170px
+	.window:before
+	 width: 220px
+	// 2nd
+	.info-wrapper ul li
+	 width: 15%
+	 height: 100px
+	.info-wrapper .tab-content .halfwidth h3, .info-wrapper .tab-content .halfwidth p
+	 padding-left: 20px
+	 padding-right: 5px
+	.halfwidth h3
+	 font-size: 18px
+	/**/
